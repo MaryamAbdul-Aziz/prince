@@ -1,8 +1,7 @@
 ---
 layout: base
-title: Student Home 
-description: Home Page
+title: Disney Princess Playground
+description: Learn more about your favorite Disney Princesses here
 hide: true
 ---
-
-My journey starts here.
+![Disney Princess banner]({{site.baseurl}}/images/princesses.jpg)
