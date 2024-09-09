@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-Creator of Student 2025
+This is a project between Maryam Abdul-Aziz, Nora Ahadian, Joanna Hu and Kushi Gade for Mr. Brown's period 4 CSP class! With this project, we hope to learn more about GitHub Pages and submenus!
