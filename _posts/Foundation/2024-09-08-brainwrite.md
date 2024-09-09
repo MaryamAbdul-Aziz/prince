@@ -1,26 +1,26 @@
 ---
 layout: post
-hide: True
-title: Moana
-permalink: /princess/moana
+title: Brainwrite
+permalink: /brainwrite
 ---
 
-{% include nav_princess.html %}
+## Disney Princess Submenu Brainwrite
 
-Moana!
+We decided to focus our submenu on something from our childhoods, our favorite Disney Princesses!
 
-![image of Moana]({{site.baseurl}}/images/moana.png)
+### Brainwrite Submenu
 
-**Movie:** Moana (2016)
-<br>
+1. Mulan
+2. Moana
+3. Elsa
+4. Anna
 
-**Country of Origin:** Polynesia
-<br>
+### Brainwrite Data
 
-**Movie Length:** 1:43
+We came up with the idea to use fun facts about each princess
 
-<script>
-    var moana_facts = [
+```javascript
+var moana_facts = [
     {fact: "Real pigs were used for the voice of Pua", complexity: "O(1)"},
     {fact: "Maui was originally planned to be the protagonist", complexity: "O(1)"},
     {fact: "Moana was Auli'i Cravalho's, the voice of Moana, first acting gig!", complexity: "O(1)"},
@@ -28,8 +28,4 @@ Moana!
     {fact: "Lin-Manuel Miranda wrote a lot of the music for Moana", complexity: "O(1)"},
     {fact: "The name Moana means ocean", complexity: "O(1)"},
 ];
-
-var randomIndex = Math.floor(Math.random() * moana_facts.length);
-var selectedJoke = moana_facts[randomIndex];
-console.log("Joke #" + (randomIndex + 1) + ": " + selectedJoke.joke + " (Complexity: " + selectedJoke.complexity + ")");
-</script>
+```
