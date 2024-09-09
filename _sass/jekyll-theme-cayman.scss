@@ -109,7 +109,9 @@ a {
   color: $header-heading-color;
   text-align: center;
   background-color: $header-bg-color;
-  background-image: linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
+  //background-image: url({{site.baseurl}}/images/princesses.jpg);
+  //background-size: 100% auto;
+  background-image: linear-gradient(120deg, #ff477e, #ff8fab);
 
   @include large {
     padding: 5rem 6rem;
